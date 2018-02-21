@@ -1,0 +1,6 @@
+<div class="container">
+  <h1>Yelp</h1>
+  <% @restaurants.each do |restaurant|%>
+    <%= render 'card', restaurant: restaurant %>
+  <% end %>
+</div>
